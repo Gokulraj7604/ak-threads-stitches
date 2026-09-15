@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17110e">
+<meta name="description" content="AK Threads & Stitches — premium custom tailoring, blouse stitching, Aari work, bridal wear, frocks, lehenga and alterations in Ambattur, Chennai.">
+<title>AK Threads & Stitches | Premium Tailoring & Aari Work</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#17110e;--cream:#fbf5ec;--paper:#fffdf9;--gold:#b9893e;--gold2:#d7b06a;--rose:#8d4054;--muted:#746b63;--line:#eadcca;--dark:#0f0b09;--green:#18885a;--shadow:0 20px 70px rgba(30,20,12,.14);--r:26px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"DM Sans",Arial,sans-serif;background:var(--cream);line-height:1.65}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.wrap{width:min(1180px,92%);margin:auto}
+.top{background:var(--dark);color:#f9eee0;font-size:12px;padding:9px 0}.top .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,253,249,.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-family:"Playfair Display",serif;font-size:21px;font-weight:700}.logo{width:45px;height:45px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-family:Georgia,serif}
+.links{display:flex;gap:24px;font-size:14px;font-weight:600}.links a:hover{color:var(--rose)}.navbtn{padding:11px 17px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;font-size:13px}
+.hero{padding:34px 0 70px;background:radial-gradient(circle at 10% 10%,#f0d9bb 0,transparent 32%),linear-gradient(135deg,#fffdf9,#f6eadb)}
+.hero-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:center}.eyebrow{color:var(--rose);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif}h1{font-size:clamp(48px,6vw,78px);line-height:1.0;font-weight:600;margin:12px 0 20px}.hero-copy p{font-size:18px;color:var(--muted);max-width:620px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.btn{padding:14px 20px;border-radius:999px;border:1px solid var(--ink);font-weight:800;display:inline-flex;align-items:center;gap:8px}.primary{background:var(--ink);color:white}.gold{border-color:var(--gold);background:#fff8ec}
+.hero-photo{height:590px;border-radius:34px;overflow:hidden;position:relative;box-shadow:var(--shadow);background:#ddd}.hero-photo img{width:100%;height:100%;object-fit:cover}.hero-label{position:absolute;left:20px;bottom:20px;background:rgba(255,253,249,.95);border-radius:18px;padding:15px 17px;box-shadow:0 12px 35px #0002}.stars{color:var(--gold);letter-spacing:2px}
+section{padding:92px 0}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.head h2{font-size:clamp(34px,4vw,52px);line-height:1.05;margin:7px 0}.head p{max-width:540px;color:var(--muted);margin:0}
+.services{background:var(--paper)}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:25px;transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.service-icon{font-size:28px;color:var(--gold)}.card h3{font-size:23px;margin:10px 0 5px}.card p{color:var(--muted);font-size:14px;margin:0}
+.portfolio{background:#fff}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}.filter{border:1px solid var(--line);background:white;padding:9px 15px;border-radius:999px;cursor:pointer;font-weight:700}.filter.active{background:var(--ink);color:white;border-color:var(--ink)}
+.gallery{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-auto-rows:230px;gap:14px}.gallery figure{margin:0;border-radius:20px;overflow:hidden;position:relative;background:#eee;cursor:zoom-in}.gallery figure.big{grid-row:span 2}.gallery figure.wide{grid-column:span 2}.gallery img{width:100%;height:100%;object-fit:cover;transition:.45s}.gallery figure:hover img{transform:scale(1.045)}.tag{position:absolute;left:12px;bottom:12px;background:rgba(15,11,9,.78);color:white;padding:7px 10px;border-radius:999px;font-size:11px;font-weight:700}
+.design{background:linear-gradient(120deg,#f4e3d4,#fbf4ea)}.design-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:center}.design-photo{height:570px;border-radius:30px;overflow:hidden;box-shadow:var(--shadow)}.design-photo img{width:100%;height:100%;object-fit:cover}
+.form{background:white;border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:0 14px 45px #3d291514}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{font-size:12px;font-weight:800;color:#5f554e}input,select,textarea{width:100%;margin-top:7px;padding:13px 14px;border:1px solid var(--line);border-radius:12px;background:#fffdf9;font:inherit}textarea{min-height:110px;resize:vertical}.full{grid-column:1/-1}.submit{width:100%;border:0;background:var(--green);color:white;padding:15px;border-radius:12px;font-weight:800;cursor:pointer;margin-top:15px}
+.map-section{background:var(--paper)}.visit{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px}.details{background:white;border:1px solid var(--line);border-radius:24px;padding:30px}.detail{display:flex;gap:14px;margin:20px 0}.detail b{display:block}.detail span{color:var(--muted);font-size:14px}.map{min-height:440px;border:0;border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}.map iframe{width:100%;height:100%;min-height:440px;border:0}
+.social{background:var(--ink);color:white}.social-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}.social-card{border:1px solid #40362f;border-radius:22px;padding:25px;background:#19130f}.social-card p{color:#c8bdb4}.social-link{display:inline-flex;padding:10px 14px;border-radius:999px;background:#fff;color:var(--ink);font-weight:800;font-size:13px}
+footer{background:#0b0807;color:#a99d94;padding:28px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.mobilebar{display:none}
+.modal{display:none;position:fixed;inset:0;background:#000b;z-index:100;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal img{max-height:90vh;max-width:95vw;border-radius:18px}.close{position:fixed;top:20px;right:25px;color:#fff;font-size:34px;cursor:pointer}
+@media(max-width:900px){.links{display:none}.hero-grid,.design-grid,.visit{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:210px}.gallery .big{grid-row:span 2}.gallery .wide{grid-column:span 2}.hero-photo{height:440px}.social-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.top .wrap{font-size:10px}section{padding:65px 0}.service-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:165px}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.hero-photo{height:390px}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;background:#fffdf9;border-top:1px solid var(--line);z-index:80;justify-content:space-around;padding:8px 4px;box-shadow:0 -8px 30px #0001}.mobilebar a{font-size:11px;font-weight:800;text-align:center}body{padding-bottom:60px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>Custom Tailoring • Aari Work • Bridal & Ethnic Wear</span><span>Ambattur, Chennai • 600053</span></div></div>
+
+<nav><div class="wrap nav">
+<a class="brand" href="#home"><span class="logo">AK</span>AK Threads & Stitches</a>
+<div class="links"><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#design">Design Your Dress</a><a href="#map">Visit Us</a><a href="#contact">Contact</a></div>
+<a class="navbtn" href="https://wa.me/919150603467?text=Hi%20AK%20Threads%20%26%20Stitches%2C%20I%20would%20like%20to%20enquire.">WhatsApp</a>
+</div></nav>
+
+<main id="home">
+<section class="hero"><div class="wrap hero-grid">
+<div class="hero-copy">
+<div class="eyebrow">Tradition meets style</div>
+<h1>Beautifully stitched. Made for your moment.</h1>
+<p>Premium custom tailoring for blouses, Aari work, chudithars, frocks, lehengas and special-occasion outfits — designed around your fabric, measurements and personal style.</p>
+<div class="actions">
+<a class="btn primary" href="https://wa.me/919150603467?text=Hi%20AK%20Threads%20%26%20Stitches%2C%20I%20want%20to%20discuss%20a%20custom%20outfit.">💬 Enquire on WhatsApp</a>
+<a class="btn gold" href="#services">Explore Services</a>
+</div>
+<div><span class="stars">★★★★★</span> <b>5.0</b> <span style="color:var(--muted)"> · 2 Google reviews</span></div>
+</div>
+<div class="hero-photo"><img src="https://images.pexels.com/photos/31945333/pexels-photo-31945333.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Elegant Indian saree and embroidered blouse"><div class="hero-label"><div class="stars">★★★★★</div><b>Custom tailoring with attention to detail</b><div style="font-size:12px;color:var(--muted)">Ambattur • Chennai</div></div></div>
+</div></section>
+
+<section class="services" id="services"><div class="wrap">
+<div class="head"><div><div class="eyebrow">Our services</div><h2>Tailoring & design services</h2></div><p>From everyday tailoring to detailed festive and bridal work, choose a service and share your requirements with us.</p></div>
+<div class="service-grid">
+<div class="card"><div class="service-icon">✦</div><h3>Blouse Stitching</h3><p>Custom necklines, sleeves, fitting and finishing for saree blouses.</p></div>
+<div class="card"><div class="service-icon">❈</div><h3>Aari Work</h3><p>Decorative embroidery, beads, stones and traditional detailing.</p></div>
+<div class="card"><div class="service-icon">◇</div><h3>Chudithar</h3><p>Comfort-focused custom stitching for elegant everyday and festive wear.</p></div>
+<div class="card"><div class="service-icon">♢</div><h3>Frocks</h3><p>Custom children’s and women’s frock styles with personalised finishing.</p></div>
+<div class="card"><div class="service-icon">◈</div><h3>Lehenga</h3><p>Custom lehenga and choli stitching for celebrations and functions.</p></div>
+<div class="card"><div class="service-icon">♡</div><h3>Bridal Wear</h3><p>Statement blouse and ethnic-wear tailoring for special occasions.</p></div>
+<div class="card"><div class="service-icon">✧</div><h3>Alterations</h3><p>Fit corrections and alterations for better comfort and appearance.</p></div>
+<div class="card"><div class="service-icon">✂</div><h3>Custom Orders</h3><p>Bring a reference image or describe your idea for a personalised design.</p></div>
+</div></div></section>
+
+<section class="portfolio" id="gallery"><div class="wrap">
+<div class="head"><div><div class="eyebrow">Portfolio</div><h2>Design inspiration & recent work</h2></div><p>Your supplied work is combined with carefully selected high-quality fashion reference imagery for a clearer premium presentation.</p></div>
+<div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="blouse">Blouse</button><button class="filter" data-filter="bridal">Bridal</button><button class="filter" data-filter="lehenga">Lehenga</button><button class="filter" data-filter="saree">Saree</button></div>
+<div class="gallery">
+<figure class="big item blouse"><img src="https://images.pexels.com/photos/31945333/pexels-photo-31945333.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Embroidered blouse and saree"><span class="tag">Blouse Inspiration</span></figure>
+<figure class="item bridal"><img src="https://images.pexels.com/photos/34767007/pexels-photo-34767007.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Indian bridal lehenga"><span class="tag">Bridal Wear</span></figure>
+<figure class="item saree"><img src="https://images.pexels.com/photos/15384798/pexels-photo-15384798.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Indian saree and blouse"><span class="tag">Saree Look</span></figure>
+<figure class="wide item lehenga"><img src="https://images.pexels.com/photos/38857427/pexels-photo-38857427.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Indian embroidered lehenga"><span class="tag">Lehenga</span></figure>
+<figure class="item saree"><img src="https://images.pexels.com/photos/37043520/pexels-photo-37043520.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Traditional purple and red saree"><span class="tag">Ethnic Wear</span></figure>
+<figure class="item blouse"><img src="assets/Traditional red blouse look.png" alt="Traditional red blouse look"><span class="tag">Designer Blouse</span></figure>
+<figure class="item blouse"><img src="assets/Blouse 1.png" alt="AK Threads supplied work"><span class="tag">AK Threads Work</span></figure>
+<figure class="item blouse"><img src="assets/Blouse 2.png" alt="AK Threads supplied blouse work"><span class="tag">Aari Detail</span></figure>
+</div></div></section>
+
+<section class="design" id="design"><div class="wrap design-grid">
+<div class="design-photo"><img src="https://images.pexels.com/photos/34767007/pexels-photo-34767007.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Bridal custom design inspiration"></div>
+<div>
+<div class="eyebrow">Design your dress</div><h2 style="font-size:clamp(38px,5vw,58px);margin:8px 0 12px">Tell us your dream outfit.</h2>
+<p style="color:var(--muted);font-size:17px">Select your preferences below. When you submit, the details will open directly in WhatsApp so the tailoring team can discuss your design.</p>
+<div class="form">
+<form id="enquiryForm"><div class="form-grid">
+<label>Garment Type<select name="garment" required><option value="">Select</option><option>Blouse</option><option>Aari Blouse</option><option>Chudithar</option><option>Frock</option><option>Lehenga</option><option>Bridal Wear</option><option>Alteration</option></select></label>
+<label>Occasion<select name="occasion"><option value="">Select</option><option>Daily Wear</option><option>Festive</option><option>Wedding</option><option>Reception</option><option>Party</option><option>Other</option></select></label>
+<label>Neckline<select name="neckline"><option value="">Select</option><option>Round</option><option>U Neck</option><option>V Neck</option><option>Boat Neck</option><option>Sweetheart</option><option>High Neck</option><option>Custom</option></select></label>
+<label>Sleeves<select name="sleeves"><option value="">Select</option><option>Short</option><option>Elbow</option><option>Full</option><option>Puff</option><option>Sheer</option><option>Custom</option></select></label>
+<label>Aari / Embroidery<select name="work"><option value="">Select</option><option>None</option><option>Light Work</option><option>Heavy Aari</option><option>Stone Work</option><option>Zari / Thread Work</option><option>Custom</option></select></label>
+<label>Preferred Date<input type="date" name="date"></label>
+<label class="full">Your Name<input name="name" placeholder="Your name" required></label>
+<label class="full">Design Notes<textarea name="notes" placeholder="Colour, fabric, reference design, measurements or other requirements..."></textarea></label>
+</div><button class="submit" type="submit">💬 Send Enquiry on WhatsApp</button></form>
+</div></div></div></section>
+
+<section class="map-section" id="map"><div class="wrap">
+<div class="head"><div><div class="eyebrow">Visit the studio</div><h2>Find AK Threads & Stitches</h2></div><p>Use the map to view the location or open turn-by-turn navigation in Google Maps.</p></div>
+<div class="visit">
+<div class="details">
+<div class="detail"><div>📍</div><div><b>Address</b><span>18, Mounasamy Madam St,<br>Vijayalakshmi Puram,<br>Ambattur, Chennai, Tamil Nadu 600053</span></div></div>
+<div class="detail"><div>☎</div><div><b>Phone</b><span><a href="tel:+919150603467">+91 91506 03467</a></span></div></div>
+<div class="detail"><div>🕒</div><div><b>Business hours</b><span>Please call before visiting to confirm current working hours.</span></div></div>
+<div class="actions"><a class="btn primary" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=18%2C%20Mounasamy%20Madam%20St%2C%20Vijayalakshmi%20Puram%2C%20Ambattur%2C%20Chennai%2C%20Tamil%20Nadu%20600053">🧭 Start Navigation</a><a class="btn gold" target="_blank" href="https://www.google.com/maps/search/?api=1&query=AK%20Threads%20%26%20Stitches%2C%2018%20Mounasamy%20Madam%20St%2C%20Ambattur%2C%20Chennai%20600053">Open Map</a></div>
+</div>
+<div class="map"><iframe loading="lazy" src="https://www.google.com/maps?q=AK%20Threads%20%26%20Stitches%2C%2018%20Mounasamy%20Madam%20St%2C%20Vijayalakshmi%20Puram%2C%20Ambattur%2C%20Chennai%20600053&output=embed" title="AK Threads & Stitches map"></iframe></div>
+</div></div></section>
+
+<section class="social" id="contact"><div class="wrap">
+<div class="head"><div><div class="eyebrow" style="color:#d8b77a">Stay connected</div><h2>Contact & social links</h2></div><p style="color:#c8bdb4">Message the studio, call for details, or follow the latest design work.</p></div>
+<div class="social-grid">
+<div class="social-card"><h3>WhatsApp</h3><p>Send your garment requirements and reference details directly.</p><a class="social-link" href="https://wa.me/919150603467">Open WhatsApp</a></div>
+<div class="social-card"><h3>Instagram</h3><p>Instagram handle shown in the supplied business screenshot.</p><a class="social-link" target="_blank" href="https://www.instagram.com/stitch_with_resh/">@stitch_with_resh</a></div>
+<div class="social-card"><h3>Google Maps</h3><p>View the shop location and get turn-by-turn navigation.</p><a class="social-link" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=18%2C%20Mounasamy%20Madam%20St%2C%20Vijayalakshmi%20Puram%2C%20Ambattur%2C%20Chennai%2C%20Tamil%20Nadu%20600053">Get Directions</a></div>
+</div></div></section>
+</main>
+
+<footer><div class="wrap foot"><span>© 2026 AK Threads & Stitches</span><span>Custom Tailoring • Aari Work • Ambattur, Chennai</span></div></footer>
+
+<div class="mobilebar"><a href="#home">⌂<br>Home</a><a href="#services">✦<br>Services</a><a href="#gallery">▦<br>Gallery</a><a href="#design">✎<br>Design</a><a href="#map">⌖<br>Map</a></div>
+
+<div class="modal" id="modal"><div class="close" id="close">×</div><img id="modalImg" src="" alt="Gallery preview"></div>
+
+<script>
+const wa="919150603467";
+document.getElementById('enquiryForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const d=new FormData(this);
+ const msg=`Hello AK Threads & Stitches!%0A%0AI would like to enquire about:%0A• Garment: ${d.get('garment')}%0A• Occasion: ${d.get('occasion')||'Not specified'}%0A• Neckline: ${d.get('neckline')||'Not specified'}%0A• Sleeves: ${d.get('sleeves')||'Not specified'}%0A• Aari/Embroidery: ${d.get('work')||'Not specified'}%0A• Preferred date: ${d.get('date')||'Not specified'}%0A• Name: ${d.get('name')}%0A• Notes: ${d.get('notes')||'None'}`;
+ window.open(`https://wa.me/${wa}?text=${msg}`,'_blank');
+});
+document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{
+ document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+ const f=btn.dataset.filter;document.querySelectorAll('.item').forEach(x=>x.style.display=(f==='all'||x.classList.contains(f))?'block':'none');
+}));
+const modal=document.getElementById('modal'), modalImg=document.getElementById('modalImg');
+document.querySelectorAll('.gallery img').forEach(img=>img.addEventListener('click',()=>{modalImg.src=img.src;modal.classList.add('open')}));
+document.getElementById('close').onclick=()=>modal.classList.remove('open');
+modal.onclick=e=>{if(e.target===modal)modal.classList.remove('open')};
+</script>
+</body>
+</html>
