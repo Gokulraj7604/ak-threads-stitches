@@ -3,9 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="PASTE-YOUR-GOOGLE-VERIFICATION-CODE-HERE">
 <meta name="theme-color" content="#17110e">
 <meta name="description" content="AK Threads & Stitches — premium custom tailoring, blouse stitching, Aari work, bridal wear, frocks, lehenga and alterations in Ambattur, Chennai.">
-<title>AK Threads & Stitches | Premium Tailoring & Aari Work</title>
+<meta name="keywords" content="tailoring shop in Ambattur, blouse stitching Ambattur, Aari work Ambattur, bridal blouse stitching Chennai, tailoring Chennai, lehenga stitching Ambattur, frock stitching Ambattur">
+<meta name="geo.region" content="IN-TN">
+<meta name="geo.placename" content="Ambattur, Chennai">
+<meta property="og:title" content="AK Threads & Stitches | Tailoring & Aari Work">
+<meta property="og:description" content="Custom tailoring, blouse stitching, Aari work, bridal wear and ethnic wear in Ambattur, Chennai.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://akthreadsandstitches.netlify.app/">
+<meta property="og:image" content="https://images.pexels.com/photos/31945333/pexels-photo-31945333.jpeg?auto=compress&cs=tinysrgb&w=1800">
+<link rel="canonical" href="https://akthreadsandstitches.netlify.app/">
+<title>AK Threads & Stitches | Tailoring & Aari Work in Ambattur, Chennai</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
@@ -35,6 +45,28 @@ footer{background:#0b0807;color:#a99d94;padding:28px 0;font-size:13px}.foot{disp
 @media(max-width:900px){.links{display:none}.hero-grid,.design-grid,.visit{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:210px}.gallery .big{grid-row:span 2}.gallery .wide{grid-column:span 2}.hero-photo{height:440px}.social-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.top .wrap{font-size:10px}section{padding:65px 0}.service-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:165px}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.hero-photo{height:390px}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;background:#fffdf9;border-top:1px solid var(--line);z-index:80;justify-content:space-around;padding:8px 4px;box-shadow:0 -8px 30px #0001}.mobilebar a{font-size:11px;font-weight:800;text-align:center}body{padding-bottom:60px}}
 </style>
+
+
+    <!-- SEO Structured Data -->
+ 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ClothingStore",
+  "name": "AK Threads & Stitches",
+  "description": "Custom tailoring, blouse stitching, Aari work, bridal wear and ethnic wear.",
+  "telephone": "+919150603467",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "18, Mounasamy Madam St, Vijayalakshmi Puram",
+    "addressLocality": "Ambattur",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "600053",
+    "addressCountry": "IN"
+  },
+  "areaServed": "Ambattur, Chennai"
+}
+</script>
 </head>
 <body>
 <div class="top"><div class="wrap"><span>Custom Tailoring • Aari Work • Bridal & Ethnic Wear</span><span>Ambattur, Chennai • 600053</span></div></div>
@@ -132,14 +164,44 @@ footer{background:#0b0807;color:#a99d94;padding:28px 0;font-size:13px}.foot{disp
 
 <div class="modal" id="modal"><div class="close" id="close">×</div><img id="modalImg" src="" alt="Gallery preview"></div>
 
+
+
+
 <script>
-const wa="919150603467";
-document.getElementById('enquiryForm').addEventListener('submit',function(e){
- e.preventDefault();
- const d=new FormData(this);
- const msg=`Hello AK Threads & Stitches!%0A%0AI would like to enquire about:%0A• Garment: ${d.get('garment')}%0A• Occasion: ${d.get('occasion')||'Not specified'}%0A• Neckline: ${d.get('neckline')||'Not specified'}%0A• Sleeves: ${d.get('sleeves')||'Not specified'}%0A• Aari/Embroidery: ${d.get('work')||'Not specified'}%0A• Preferred date: ${d.get('date')||'Not specified'}%0A• Name: ${d.get('name')}%0A• Notes: ${d.get('notes')||'None'}`;
- window.open(`https://wa.me/${wa}?text=${msg}`,'_blank');
+// const wa="919150603467";
+// document.getElementById('enquiryForm').addEventListener('submit',function(e){
+//  e.preventDefault();
+//  const d=new FormData(this);
+//  const msg=`Hello AK Threads & Stitches!%0A%0AI would like to enquire about:%0A• Garment: ${d.get('garment')}%0A• Occasion: ${d.get('occasion')||'Not specified'}%0A• Neckline: ${d.get('neckline')||'Not specified'}%0A• Sleeves: ${d.get('sleeves')||'Not specified'}%0A• Aari/Embroidery: ${d.get('work')||'Not specified'}%0A• Preferred date: ${d.get('date')||'Not specified'}%0A• Name: ${d.get('name')}%0A• Notes: ${d.get('notes')||'None'}`;
+//  window.open(`https://wa.me/${wa}?text=${msg}`,'_blank');
+// });
+const wa = "919150603467";
+
+document.getElementById("enquiryForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const d = new FormData(this);
+
+  const message = `Hello AK Threads & Stitches!
+
+I would like to enquire about:
+
+• Garment: ${d.get("garment") || "Not specified"}
+• Occasion: ${d.get("occasion") || "Not specified"}
+• Neckline: ${d.get("neckline") || "Not specified"}
+• Sleeves: ${d.get("sleeves") || "Not specified"}
+• Aari/Embroidery: ${d.get("work") || "Not specified"}
+• Preferred Date: ${d.get("date") || "Not specified"}
+• Name: ${d.get("name") || "Not specified"}
+• Design Notes: ${d.get("notes") || "None"}
+
+Please contact me regarding this enquiry.`;
+
+  const whatsappURL = `https://wa.me/${wa}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, "_blank");
 });
+
 document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{
  document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');
  const f=btn.dataset.filter;document.querySelectorAll('.item').forEach(x=>x.style.display=(f==='all'||x.classList.contains(f))?'block':'none');
@@ -148,6 +210,11 @@ const modal=document.getElementById('modal'), modalImg=document.getElementById('
 document.querySelectorAll('.gallery img').forEach(img=>img.addEventListener('click',()=>{modalImg.src=img.src;modal.classList.add('open')}));
 document.getElementById('close').onclick=()=>modal.classList.remove('open');
 modal.onclick=e=>{if(e.target===modal)modal.classList.remove('open')};
+
+
+
 </script>
+
+
 </body>
 </html>
